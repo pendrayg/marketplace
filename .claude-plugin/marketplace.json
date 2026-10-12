@@ -1,5 +1,5 @@
 {
-  "name": "yoannyviquel",
+  "name": "pendrayg",
   "owner": {
     "name": "Yoann Yviquel"
   },
@@ -9,22 +9,22 @@
   "plugins": [
     {
       "name": "memory",
-      "source": { "source": "url", "url": "https://github.com/yoannyviquel/memory.git", "ref": "main" },
+      "source": { "source": "url", "url": "https://github.com/pendrayg/memory.git", "ref": "main" },
       "description": "Mémoire persistante Claude Code en SQLite local. Capture via hooks, recherche hybride BM25 (FTS5) + sémantique (sqlite-vec + embeddings locaux transformers.js, q8), migration depuis claude-mem. Embarqué : zéro serveur, zéro démon, zéro cloud."
     },
     {
       "name": "agents",
-      "source": { "source": "url", "url": "https://github.com/yoannyviquel/agents.git", "ref": "main" },
+      "source": { "source": "url", "url": "https://github.com/pendrayg/agents.git", "ref": "main" },
       "description": "Agents de développement spécialisés (skills) : dotnet-developer, react-developer, nodejs-developer, ios-game-developer (implémentation, tests, revue, refactoring) et code-architect (conception d'architecture par design patterns GoF, ADR, plan de dev Claude Code)."
     },
     {
       "name": "microsoft-tfs",
-      "source": { "source": "url", "url": "https://github.com/yoannyviquel/microsoft-tfs.git", "ref": "main" },
+      "source": { "source": "url", "url": "https://github.com/pendrayg/microsoft-tfs.git", "ref": "main" },
       "description": "Serveur MCP Microsoft TFS on-premise (Node/TypeScript, stdio) — work items, builds, pull requests, repos, branches, releases."
     },
     {
       "name": "status-line",
-      "source": { "source": "url", "url": "https://github.com/yoannyviquel/status-line.git", "ref": "main" },
+      "source": { "source": "url", "url": "https://github.com/pendrayg/status-line.git", "ref": "main" },
       "description": "Status line à barres de progression dégradé vert→rouge pour la fenêtre de contexte et les quotas 5h / 7j. Lancer /install-statusline une fois pour l'activer (truecolor + node + bash requis)."
     }
   ]
